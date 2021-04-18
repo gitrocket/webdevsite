@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gainsboro;
+}
+
+/* body * {
+  outline: 1px solid pink;
+} */
+
+/* make anchor tags coral */
+
+a {
+  color: coral;
+}
+
+/* center image on page */
+
+.feature-img-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.feature-img-container img {
+  width: 250px;
+  border-radius: 50%;
+  /* padding: 10px; */
+  border: 15px solid #333;
+}
+
+h1 {
+  text-align: center;
+  color: #999;
+  background-color: #333;
+  padding: 20px;
+}
+
+h1 span {
+  color: coral;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+  color: #555;
+}
+
+/* center all main content */
+
+main {
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+li {
+  margin-left: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+hr {
+  margin: 20px;
+}
+
+p {
+  text-align: justify;
+}
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  color: #999;
+}
+
+/* make credits bold */
+
+#credits {
+  font-weight: bold;
+}
